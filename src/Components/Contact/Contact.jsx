@@ -24,8 +24,10 @@ const Contact = () => {
 				<br/>
 				<br/>
 
-				<h3 >Call me : +91 7557881346</h3>
-				<h3 >Email me :  &nbsp; singh80020@gmail.com </h3>
+				<h3  style={{ color: `${newTheme.para}` }}
+					className={styles.paragraph}>Call me : +91 7557881346</h3>
+				<h3  style={{ color: `${newTheme.para}` }}
+					className={styles.paragraph}>Email me :  &nbsp; singh80020@gmail.com </h3>
 				<div
 					style={{ color: `${newTheme.title}` }}
 					className={styles.contactOptions}
