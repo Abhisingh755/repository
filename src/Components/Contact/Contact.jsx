@@ -12,6 +12,8 @@ const Contact = () => {
 		>
 			<div className={styles.container}>
 				<h1 style={{ color: `${newTheme.title}` }}>Get in Touch</h1>
+				<br/>
+				<br/>
 				<p
 					style={{ color: `${newTheme.para}` }}
 					className={styles.paragraph}
@@ -19,26 +21,17 @@ const Contact = () => {
 					I'm actively looking for any new opportunities, in
 					full-stack web development.
 				</p>
+				<br/>
+				<br/>
+
+				<h3 >Call me : +91 7557881346</h3>
+				<h3 >Email me :  &nbsp; singh80020@gmail.com </h3>
 				<div
 					style={{ color: `${newTheme.title}` }}
 					className={styles.contactOptions}
 				>
-					<a
-						href='tel:00917557881346'
-						aria-label='GitHub'
-						rel='noreferrer'
-						target='_blank'
-					>
-						<i className='fas fa-phone-alt' />
-					</a>
-					<a
-						href='mailto: singh80020@gmail.com'
-						aria-label='email'
-						target='_blank'
-						rel='noreferrer'
-					>
-						<i className='far fa-envelope'></i>
-					</a>
+				
+			
 					<a
 						href="https://twitter.com/the_abhi_singh"
 						aria-label='Twitter'
