@@ -65,12 +65,7 @@ const Contact = () => {
 				style={{ background: `${newTheme.line}` }}
 				className={styles.line}
 			/>
-			<div
-				style={{ color: `${newTheme.para}` }}
-				className={styles.copyright}
-			>
-				Designed and build by Abhishek , 2021 
-			</div>
+		
 		</footer>
 	);
 };
