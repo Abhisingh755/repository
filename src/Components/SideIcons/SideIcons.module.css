@@ -20,7 +20,7 @@
 .icons li {
 	cursor: pointer;
 	list-style: none;
-	transition: 0.9s;
+	transition: 0.3s;
 }
 a {
 	display: inline-block;
@@ -34,8 +34,8 @@ a {
 	padding: 10px;
 }
 .icons li a svg {
-	width: 25px;
-	height: 25px;
+	width: 20px;
+	height: 20px;
 	/* color: #8892b0; */
 }
 
@@ -52,7 +52,7 @@ a {
 	transition: 0.3s;
 }
 .rightEmail a:first-child:hover {
-	color: #ff0000;
+	color: #00a0a0;
 	top: -85px;
 }
 li:hover {

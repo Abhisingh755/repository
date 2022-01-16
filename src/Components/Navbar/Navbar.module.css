@@ -35,14 +35,11 @@
 	margin: 0 15px;
 	transition: 0.4s;
 	display: inline-block;
-	color: rgb(11, 93, 99);
+	/* color: #000; */
 	text-decoration: none;
-	font-size: 22px;
-	font-weight: bold;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .links a:hover {
-	color: #ff0000;
+	color: #00a0a0;
 }
 .links a::after {
 	content: '';
@@ -50,7 +47,7 @@
 	width: 0;
 	margin-top: 5px;
 	height: 2px;
-	background: #ffffff;
+	background: #00a0a0;
 	transition: width 0.4s;
 }
 .links a:hover::after {

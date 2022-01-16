@@ -1,6 +1,6 @@
 export const theme = {
 	dark: {
-		background: '#808085',
+		background: '#111825',
 		title: '#CCD6F6',
 		para: '#8993b1',
 		heading: '#CCD6F6',
